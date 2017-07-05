@@ -85,7 +85,7 @@ class FixedDeposit extends Account {
         return true;
     }
     transfer(target, amount) {
-        if(getStartYear() = true) {
+        if(this.getStartYear() === true) {
             if (this._Balance - amount < this._Creditline) {
                 return "Coverage Insufficient";
             } else {
@@ -98,3 +98,10 @@ class FixedDeposit extends Account {
         }
     }
 }
+let lowerClass = new SavingsAccount("David", 66464847, 2000);
+let middleClass = new CurrentAccount("Melody", 16273844, 30000);
+let highClass = new FixedDeposit("Richard", 456478389, 40000000);
+
+console.log(lowerClass.balance());
+console.log(highClass.transfer(middleClass, 10000));
+console.log(middleClass.balance());
