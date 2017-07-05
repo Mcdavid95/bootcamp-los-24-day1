@@ -29,4 +29,4 @@ An Object Oriented Programming implementation of an Account class. Where you can
 * none
 
 ## Test
-There are some pre-written cases in the app.js file. To test the program, navigate to the program directory on your terminal, type `node src/oop.js` and press enter.
+There are some pre-written cases in the oop.js file. To test the program, navigate to the program directory on your terminal, type `node src/oop.js` and press enter.
